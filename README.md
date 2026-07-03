@@ -297,26 +297,26 @@ Potential enhancements include:
 ```
 aws-s3-cloudfront-static-website/
 │
-├── Architecture/
+├── architecture/
 │   ├── aws-s3-cloudfront-architecture.drawio
-│   └── aws-s3-cloudfront-architecture.png
+│   └── aws-s3-cloudfront-architecture.drawio.png
 │
-├── Screenshots/
-│   ├── 01-s3-bucket-overview.png
-│   ├── 02-uploaded-files.png
-│   ├── 03-static-website-hosting.png
-│   ├── 04-bucket-policy.png
-│   ├── 05-cloudfront-distribution.png
-│   ├── 06-live-website.png
-│   └── 07-cache-invalidation.png
+├── screenshots/
+│   ├── s3-bucket-created.png
+│   ├── uploaded-files-s3.png
+│   ├── static-website.png
+│   ├── Buckets-policy.png
+│   ├── cloudfront-distribution.png
+│   ├── cloudfront-website.png
+│   └── invalidation-created.png
 │
-├── Website/
+├── website/
 │   ├── index.html
 │   ├── styles.css
 │   ├── script.js
-│   └── assets/
 │
 ├── README.md
+├── PROJECT-NOTES.md
 ├── LICENSE
 └── .gitignore
 ```
