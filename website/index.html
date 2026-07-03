@@ -1,1 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dennis Owoju | Cloud & Security Engineer</title>
+    <meta name="description" content="Dennis Owoju — Final-year Computer Engineering student building AWS cloud infrastructure and monitoring projects on the path to a career in cybersecurity.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <nav>
+            <a href="#top" class="logo">
+                <span class="logo-bracket">[</span>dennis-owoju<span class="logo-bracket">]</span>
+            </a>
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#certs">certs</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Status strip: a real monitoring readout tied to the actual project stack, not decoration -->
+    <div class="status-strip" aria-hidden="true">
+        <div class="status-track">
+            <span class="status-item"><i class="dot"></i>EC2 — RUNNING</span>
+            <span class="status-item"><i class="dot"></i>CLOUDWATCH — OK</span>
+            <span class="status-item"><i class="dot"></i>IAM ROLE — ATTACHED</span>
+            <span class="status-item"><i class="dot"></i>SNS TOPIC — SUBSCRIBED</span>
+            <span class="status-item"><i class="dot"></i>ALARM — OK (CPU &lt; 50%)</span>
+            <span class="status-item"><i class="dot"></i>EC2 — RUNNING</span>
+            <span class="status-item"><i class="dot"></i>CLOUDWATCH — OK</span>
+            <span class="status-item"><i class="dot"></i>IAM ROLE — ATTACHED</span>
+            <span class="status-item"><i class="dot"></i>SNS TOPIC — SUBSCRIBED</span>
+            <span class="status-item"><i class="dot"></i>ALARM — OK (CPU &lt; 50%)</span>
+        </div>
+    </div>
+
+    <section class="hero" id="top">
+        <div class="hero-inner">
+            <p class="eyebrow">// final-year computer engineering &middot; AWS BUILDER &middot; osun state, nigeria</p>
+            <h1>
+                Building cloud infrastructure.<br>
+                Learning to defend it.
+            </h1>
+            <p class="hero-sub">
+                I'm Dennis — a final-year Computer Engineering student building hands-on AWS
+                projects while working toward a career as a SOC Analyst. I like systems that
+                tell you when something's wrong before it becomes a problem.
+            </p>
+            <div class="buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="https://github.com/owojudennis-lab" target="_blank" rel="noopener" class="btn btn-secondary">GitHub</a>
+                <a href="https://www.linkedin.com/in/owoju-dennis/" target="_blank" rel="noopener" class="btn btn-secondary">LinkedIn</a>
+            </div>
+        </div>
+        <div class="terminal-card" aria-hidden="true">
+            <div class="terminal-bar">
+                <span class="tdot red"></span><span class="tdot yellow"></span><span class="tdot green"></span>
+                <span class="terminal-title">dennis@cloud:~</span>
+            </div>
+            <div class="terminal-body">
+                <p><span class="prompt">$</span> whoami</p>
+                <p class="out">aspiring_soc_analyst</p>
+                <p><span class="prompt">$</span> cat focus.txt</p>
+                <p class="out">AWS &middot; Linux &middot; SIEM &middot; Threat Detection &middot; Networking</p>
+                <p><span class="prompt">$</span> <span class="cursor">&nbsp;</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-head">
+            <p class="eyebrow">01 &middot; about</p>
+            <h2>Who I am</h2>
+        </div>
+        <div class="about-grid">
+            <p class="about-lead">
+                I'm a final-year Computer Engineering student at Adeleke University, graduating in 2026,
+                building practical AWS and monitoring projects to strengthen my cloud infrastructure and
+                security fundamentals. My background spans front-end web development and hands-on
+                cybersecurity lab work — SIEM detection rules, malware analysis, and infrastructure hardening.
+            </p>
+            <ul class="about-facts">
+                <li><span>Focus</span>SOC Analyst roles, cloud security</li>
+                <li><span>Currently</span>AWS Cloud Practitioner prep</li>
+                <li><span>Stack</span>AWS, Linux, Wazuh, Splunk, MITRE ATT&amp;CK</li>
+                <li><span>Based in</span>Lagos, Nigeria</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-head">
+            <p class="eyebrow">02 &middot; skills</p>
+            <h2>What I work with</h2>
+        </div>
+        <div class="skills-columns">
+            <div class="skill-group">
+                <h3>Cloud &amp; Infrastructure</h3>
+                <div class="skills-grid">
+                    <div>AWS EC2</div>
+                    <div>AWS IAM</div>
+                    <div>CloudWatch</div>
+                    <div>Amazon SNS</div>
+                    <div>S3 &amp; CloudFront</div>
+                    <div>Linux (Ubuntu)</div>
+                </div>
+            </div>
+            <div class="skill-group">
+                <h3>Security &amp; Monitoring</h3>
+                <div class="skills-grid">
+                    <div>Wazuh SIEM</div>
+                    <div>Splunk</div>
+                    <div>MITRE ATT&amp;CK</div>
+                    <div>Sysmon Forensics</div>
+                    <div>Wireshark</div>
+                    <div>IOC Analysis</div>
+                </div>
+            </div>
+            <div class="skill-group">
+                <h3>Development</h3>
+                <div class="skills-grid">
+                    <div>HTML / CSS</div>
+                    <div>JavaScript</div>
+                    <div>React</div>
+                    <div>Bootstrap</div>
+                    <div>Git / GitHub</div>
+                    <div>Networking</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-head">
+            <p class="eyebrow">03 &middot; projects</p>
+            <h2>Featured builds</h2>
+        </div>
+
+        <div class="project-card">
+            <div class="project-meta">
+                <span class="tag">AWS</span><span class="tag">Monitoring</span><span class="tag">IAM</span>
+            </div>
+            <h3>EC2 Monitoring with CloudWatch &amp; SNS</h3>
+            <p>
+                Deployed an Ubuntu EC2 instance running a live Nginx web server, with the CloudWatch Agent
+                collecting real CPU and memory metrics. Configured an IAM Role scoped to
+                <code>CloudWatchAgentServerPolicy</code> so the agent never touches access keys, built a
+                CloudWatch Dashboard, and wired a CloudWatch Alarm to an SNS topic that emails an alert
+                the moment CPU crosses 50%. Validated the full pipeline by stress-testing the instance
+                and confirming the alert actually fired.
+            </p>
+            <a href="https://github.com/owojudennis-lab/aws-ec2-cloudwatch-monitoring" target="_blank" rel="noopener" class="project-link">
+                View on GitHub &rarr;
+            </a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-meta">
+                <span class="tag">AWS</span><span class="tag">S3</span><span class="tag">CloudFront</span>
+            </div>
+            <h3>Static Website on S3 + CloudFront</h3>
+            <p>
+                Hosted a static website on Amazon S3 and distributed it globally through Amazon CloudFront
+                for low-latency delivery, caching, and HTTPS. Focused on getting the access model right —
+                origin access control rather than a public bucket — so the site is reachable without
+                exposing storage directly.
+            </p>
+            <a href="https://github.com/owojudennis-lab/aws-s3-cloudfront-static-website" target="_blank" rel="noopener" class="project-link">
+                View on GitHub &rarr;
+            </a>
+        </div>
+
+        <div class="project-card project-card-next">
+            <div class="project-meta">
+                <span class="tag tag-muted">In progress</span>
+            </div>
+            <h3>More on the way</h3>
+            <p>
+                Next up: a BTL1-style detection lab and a cloud-hosted mobile tournament platform build.
+                Follow along on GitHub for updates.
+            </p>
+        </div>
+    </section>
+
+    <section id="certs">
+        <div class="section-head">
+            <p class="eyebrow">04 &middot; certifications</p>
+            <h2>Credentials in progress</h2>
+        </div>
+        <ul class="cert-list">
+            <li>
+                <span class="cert-status cert-progress">Completed</span>
+                <span class="cert-name">New Horizons Security +</span>
+            </li>
+            <li>
+                <span class="cert-status cert-progress">Completed</span>
+                <span class="cert-name">New Horizons Front-End Development</span>
+            <li>
+                <span class="cert-status cert-progress">In progress</span>
+                <span class="cert-name">AWS Certified Cloud Practitioner</span>
+            </li>
+            <li>
+                <span class="cert-status cert-progress">In progress</span>
+                <span class="cert-name">ISC2 Certified in Cybersecurity (CC)</span>
+            </li>
+            <li>
+                <span class="cert-status cert-planned">Planned</span>
+                <span class="cert-name">BTL1 — Blue Team Level 1</span>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <div class="section-head">
+            <p class="eyebrow">05 &middot; contact</p>
+            <h2>Let's talk</h2>
+        </div>
+        <div class="contact-grid">
+            <p class="contact-lead">
+                Open to SOC Analyst and cloud engineering opportunities, and always happy to talk
+                through a project or get feedback on one.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:dennisayotunde@gmail.com" class="contact-row">
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">dennisayotunde@gmail.com</span>
+                </a>
+                <a href="https://github.com/owojudennis-lab" target="_blank" rel="noopener" class="contact-row">
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-value">github.com/owojudennis-lab</span>
+                </a>
+                <a href="https://www.linkedin.com/in/owoju-dennis/" target="_blank" rel="noopener" class="contact-row">
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-value">linkedin.com/in/owoju-dennis</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Dennis Owoju &middot; Built with HTML, CSS &amp; JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
