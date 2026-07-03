@@ -325,11 +325,7 @@ aws-s3-cloudfront-static-website/
 
 # 🌍 Live Demo
 
-**CloudFront URL**
-
-```
-[https://your-cloudfront-url.cloudfront.net](https://dpb2qsbhs0fjp.cloudfront.net/)
-```
+**CloudFront URL:** https://dpb2qsbhs0fjp.cloudfront.net/
 
 ---
 
